@@ -1,6 +1,6 @@
 @font-face {
     font-family: OktaNeueLight;
-    src: url('/assets/fonts/Groteskly Yours - Okta Neue UltraLight.otf') format('opentype');
+    src: url('../../assets/fonts/GOktaNeueUltraLight.otf') format('opentype');
 }
 
 body, ul, li, p, a {
@@ -41,7 +41,6 @@ a {
 }
 
 .dv-banner__image {
-    background-image: url('/assets/images/engin-akyurt--ikp7hwRJ_M-unsplash.jpg');
     object-fit: cover;
     filter: blur(2px);
     height: 100%;
