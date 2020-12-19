@@ -1,4 +1,5 @@
 :root {
+    --primary-light-01: rgba(0,0,0,0.125);
     --primary-light-10: #A9A9A9;
     --primary-light: #686969;
     --primary-dark: rgb(221, 24, 32);
@@ -131,7 +132,7 @@ p > a {
     flex-direction: row; 
 }
 
-.dv-navigation__list a:hover {
+.dv-navigation__list .dv-navigation__item:hover {
     color: var(--primary-dark);
 }
 
@@ -144,6 +145,16 @@ p > a {
     border-radius: 18px;
     color: white;
     background-color: var(--primary-dark-80);
+}
+
+.dv-button:hover {
+    background-color: white;
+    border: 1px solid var(--primary-dark);
+    padding: 4px 15px;
+}
+
+.dv-navigation__item.dv-button:hover {
+    color: var(--primary-dark);
 }
 
 .dv-title {
@@ -243,7 +254,20 @@ p > a {
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
-    margin-bottom: 24px
+    list-style-type: circle;
+}
+
+.dv-offer-list {
+    margin-left: 7px;
+}
+
+.dv-offer-list li {
+    padding: 5px;
+    margin: 0;
+}
+
+.dv-offer-list p {
+    margin: 0;
 }
 
 /* --- ICONS --- */
