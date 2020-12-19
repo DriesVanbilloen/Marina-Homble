@@ -248,6 +248,11 @@ p > a {
     cursor: pointer;
 }
 
+.dv-component-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .dv-offer-list li {
     font-family: opensans;
     color: var(--primary-light);
@@ -258,10 +263,12 @@ p > a {
 }
 
 .dv-offer-list {
-    margin-left: 7px;
+    max-width: 300px;
 }
 
 .dv-offer-list li {
+    word-break: break-all;
+    word-wrap: break-word;
     padding: 5px;
     margin: 0;
 }
