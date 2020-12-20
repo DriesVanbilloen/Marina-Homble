@@ -1,4 +1,5 @@
 :root {
+    --primary-light-001: #FAFAFA;
     --primary-light-01: rgba(0,0,0,0.125);
     --primary-light-10: #A9A9A9;
     --primary-light: #686969;
@@ -12,12 +13,23 @@
     src: url('../../assets/fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
-html {
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.dv-site-wrapper {
     min-height: 100%;
 }
 
-body {
-    height: 100%;
+.dv-content-wrapper {
+    padding-bottom: 95px;
+}
+
+footer {
+    background-color: var(--primary-light-01);
+    height: 250px;
+
 }
 
 li, a {
@@ -28,13 +40,30 @@ li, a {
     line-height: 24px;
 }
 
-p {
+p, td {
     font-family: opensans;
     color: var(--primary-light);
     font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 24px
+}
+
+bold {
+    font-weight: 700;
+}
+
+small,  small > a {
+    font-family: opensans;
+    color: var(--primary-light);
+    font-size: 12px;
     font-weight: 500;
     line-height: 24px;
     margin-bottom: 24px
+}
+
+small > a {
+    color: var(--primary-dark);
 }
 
 h1 {
@@ -52,6 +81,15 @@ h2 {
     font-size: 24px;
     font-weight: 700px;
     line-height: 48px;
+    margin: 0;
+}
+
+h3 {
+    font-family: opensans;
+    color: var(--primary-light);
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 24px;
     margin: 0;
 }
 
@@ -165,6 +203,23 @@ p > a {
     text-align: center;
 }
 
+.dv-text {
+    margin-bottom: 24px;
+}
+
+.dv-text a {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.dv-text p {
+    margin: 4px;
+}
+
+.dv-text__title {
+    margin-bottom: 12px;
+}
+
 .dv-text--red {
     color: var(--primary-dark);
     font-weight: bold
@@ -188,6 +243,7 @@ p > a {
 .dv-text-icon {
     display: flex;
     align-content: center;
+    margin-bottom: 24px;
 }
 
 .dv-text-icon .dv-text-icon__icon > svg {
@@ -275,6 +331,49 @@ p > a {
 
 .dv-offer-list p {
     margin: 0;
+}
+
+.dv-footer-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 0;
+
+    text-align: center;
+}
+
+.dv-footer-nav {
+    margin-bottom: 16px;
+}
+
+.dv-footer-nav h3 {
+    margin-bottom: 12px
+}
+
+.dv-footer-nav p {
+    margin: 0;
+}
+
+.dv-calendar-icon svg{
+/*    display: inline-block;*/
+    width: 33px;
+    height: 33px;
+}
+
+.dv-hours-table {
+    display: table;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+}
+
+.dv-hours-table td {
+    border-bottom: 1px solid var(--primary-light-01);
+    padding: 14px 24px;
+
+}
+
+.dv-hours-table tr:last-child td {
+    border: none;
 }
 
 /* --- ICONS --- */
