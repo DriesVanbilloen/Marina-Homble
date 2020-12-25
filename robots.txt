@@ -1,5 +1,3 @@
 User-Agent: *
-Disallow: /assets
-Disallow: /fonts
 
 Sitemap: https://www.drmarinahomble.be/sitemap.xml

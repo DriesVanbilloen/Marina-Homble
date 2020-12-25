@@ -250,6 +250,7 @@ p > a {
 
 .dv-main-nav--sticky {
     background-color: #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .dv-header-image img {
