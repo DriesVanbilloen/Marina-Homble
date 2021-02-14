@@ -3,8 +3,8 @@
     --primary-light-01: rgba(0,0,0,0.125);
     --primary-light-10: #A9A9A9;
     --primary-light: #686969;
-    --primary-dark: rgb(221, 24, 32);
-    --primary-dark-80: rgb(221,24,32, 0.8);
+    --primary-dark: rgba(221, 24, 32);
+    --primary-dark-80: rgba(221,24,32, 0.8);
     --warning: #FB3640;
 }
 
@@ -27,13 +27,14 @@ html, body {
 }
 
 footer {
+    background-color: rgba(0,0,0,0.125);
     background-color: var(--primary-light-01);
     height: 250px;
-
 }
 
 li, a {
     font-family: opensans;
+    color: #A9A9A9;
     color: var(--primary-light-10);
     font-size: 16px;
     font-weight: 700;
@@ -42,6 +43,7 @@ li, a {
 
 p, td {
     font-family: opensans;
+    color: #686969;
     color: var(--primary-light);
     font-size: 14px;
     font-weight: 300;
@@ -55,6 +57,7 @@ bold {
 
 small,  small > a {
     font-family: opensans;
+    color: #686969;
     color: var(--primary-light);
     font-size: 12px;
     font-weight: 500;
@@ -63,11 +66,13 @@ small,  small > a {
 }
 
 small > a {
+    color: rgb(221, 24, 32);
     color: var(--primary-dark);
 }
 
 h1 {
     font-family: opensans;
+    color: #686969;
     color: var(--primary-light);
     font-size: 32px;
     font-weight: 700px;
@@ -77,6 +82,7 @@ h1 {
 
 h2 {
     font-family: opensans;
+    color: #686969;
     color: var(--primary-light);
     font-size: 24px;
     font-weight: 700px;
@@ -86,6 +92,7 @@ h2 {
 
 h3 {
     font-family: opensans;
+    color: #686969;
     color: var(--primary-light);
     font-size: 18px;
     font-weight: 700px;
@@ -130,7 +137,8 @@ main {
 }
 
 p > a {
-   border-bottom: 1px solid;
+    border-bottom: 1px solid;
+    color: rgb(221, 24, 32);
     color: var(--primary-dark);
 }
 
@@ -138,6 +146,7 @@ p > a {
     font-size: 24px;
     font-weight: 700;
     line-height: 20px;
+    color: rgba(221,24,32, 0.8);
     color: var(--primary-dark-80);
 }
 
@@ -171,6 +180,7 @@ p > a {
 }
 
 .dv-navigation__list .dv-navigation__item:hover {
+    color: rgba(221, 24, 32);
     color: var(--primary-dark);
 }
 
@@ -182,16 +192,19 @@ p > a {
     padding: 6px 16px;
     border-radius: 18px;
     color: white;
+    background-color: rgba(221,24,32, 0.8);
     background-color: var(--primary-dark-80);
 }
 
 .dv-button:hover {
     background-color: white;
+    border-color: rgba(221, 24, 32);
     border: 1px solid var(--primary-dark);
     padding: 4px 15px;
 }
 
 .dv-navigation__item.dv-button:hover {
+    color: rgba(221, 24, 32);
     color: var(--primary-dark);
 }
 
@@ -221,6 +234,7 @@ p > a {
 }
 
 .dv-text--red {
+    color: rgba(221, 24, 32);
     color: var(--primary-dark);
     font-weight: bold
 }
@@ -234,7 +248,9 @@ p > a {
 }
 
 .dv-text-section--border {
+    border-color: rgba(221,24,32, 0.8);
     border: 3px solid var(--primary-dark-80);
+    box-shadow: 5px 5px rgba(221,24,32, 0.8);
     box-shadow: 5px 5px var(--primary-dark-80);
     border-radius: 12px;
     padding: 16px;
@@ -249,6 +265,7 @@ p > a {
 .dv-text-icon .dv-text-icon__icon > svg {
     width: 120px;
     height: 120px;
+    fill: rgba(221,24,32, 0.8);
     fill: var(--primary-dark-80);
 }
 
@@ -264,6 +281,7 @@ p > a {
 
 .dv-text-section--filled {
     color: white;
+    background-color: rgba(221,24,32, 0.8);
     background-color: var(--primary-dark-80);
     
     border-radius: 12px;
@@ -278,7 +296,7 @@ p > a {
     width: 100%;
     min-height: 100%;
     z-index: 2;
-    background-color: rgb(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
 }
 
 .dv-pop-up--hidden {
@@ -311,6 +329,7 @@ p > a {
 
 .dv-offer-list li {
     font-family: opensans;
+    color: #686969;
     color: var(--primary-light);
     font-size: 14px;
     font-weight: 500;
@@ -367,6 +386,7 @@ p > a {
 }
 
 .dv-hours-table td {
+    border-color: rgba(0,0,0,0.125);
     border-bottom: 1px solid var(--primary-light-01);
     padding: 14px 24px;
 
@@ -379,5 +399,6 @@ p > a {
 /* --- ICONS --- */
 
 svg.dv-icon--info {
+    fill: rgba(221,24,32, 0.8);
     fill: var(--primary-dark-80);
 }

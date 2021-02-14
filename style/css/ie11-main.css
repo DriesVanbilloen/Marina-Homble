@@ -1,0 +1,30 @@
+@media all and (-ms-high-contrast:none) {
+    main {
+        display: block;
+    }
+
+    .dv-header-image {
+        position: relative;
+    }
+
+    .dv-header-image__IE11 {
+        position: absolute;
+        max-height: 300px;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: top;
+        background-image: url(/assets/images/background1.jpg);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dv-header-image img {
+        display: none;
+    }
+}
+
