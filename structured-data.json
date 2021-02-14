@@ -1,0 +1,176 @@
+{
+    "@context": "http://schema.org",
+    "@graph": [{
+        "@type": "CreativeWork",
+        "author": {
+            "@id": "https://www.drmarinahomble.be/#identity"
+        },
+        "copyrightHolder": {
+            "@id": "https://www.drmarinahomble.be/#identity"
+        },
+        "copyrightYear": "2020",
+        "creator": {
+            "@id": "https://www.drmarinahomble.be/#creator"
+        },
+        "dateModified": "2020-12-25T09:47:59+02:00",
+        "datePublished": "2020-12-25T07:54:00+02:00",
+        "description": "Welkom bij de praktijk van dokter Marina Homblé! U kan mij ook steeds telefonisch contacteren voor een afspraak of andere medische vragen: 016/799 001",
+        "headline": "Home",
+        "inLanguage": "nl",
+        "mainEntityOfPage": "https://www.drmarinahomble.be/",
+        "name": "Home",
+        "publisher": {
+            "@id": "https://www.drmarinahomble.be/#creator"
+        },
+        "url": "https://www.drmarinahomble.be"
+    }, {
+        "@id": "https://www.drmarinahomble.be/#identity",
+        "@type": "Organization",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Belgium",
+            "addressLocality": "Kessel-Lo",
+            "addressRegion": "Vlaams Brabant",
+            "postalCode": "3010",
+            "streetAddress": "Heidebergstraat 96A"
+        },
+        "alternateName": "Marina Homblé",
+        "description": "Huisartsenpraktijk Dokter Marina Homblé in Kessel-Lo: Huisarts voor de algemene huisartsgeneeskunde.",
+        "name": "Huisartsenpraktijk Dr. Marina Homblé",
+        "telephone": "+32 498736415",
+        "url": "https://www.drmarinahomble.be"
+    }, {
+        "@id": "#creator",
+        "@type": "Organization"
+    }, {
+        "@type": "BreadcrumbList",
+        "description": "Breadcrumbs list",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "item": "https://www.drmarinahomble.be/",
+            "name": "Home",
+            "position": 1
+        }],
+        "name": "Breadcrumbs"
+    }]
+},
+
+{
+    "@context": "http://schema.org",
+    "@graph": [{
+        "@type": "CreativeWork",
+        "author": {
+            "@id": "https://www.drmarinahomble.be/#identity"
+        },
+        "copyrightHolder": {
+            "@id": "https://www.drmarinahomble.be/#identity"
+        },
+        "copyrightYear": "2020",
+        "creator": {
+            "@id": "https://www.drmarinahomble.be/#creator"
+        },
+        "description": "Meer informatie over de praktijk met uren voor afspraak",
+        "headline": "Praktijk Info",
+        "inLanguage": "nl",
+        "mainEntityOfPage": "https://www.drmarinahomble.be/praktijkinfo.html",
+        "name": "Praktijk Info",
+        "publisher": {
+            "@id": "https://www.drmarinahomble.be/#creator"
+        },
+        "url": "https://www.drmarinahomble.be/praktijkinfo.html"
+    }, {
+        "@id": "https://www.drmarinahomble.be/#identity",
+        "@type": "Organization",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Belgium",
+            "addressLocality": "Herent",
+            "addressRegion": "Vlaams Brabant",
+            "postalCode": "3010",
+            "streetAddress": "Heidebergstraat 96A"
+        },
+        "alternateName": "Marina Homblé",
+        "description": "Huisartsenpraktijk Dokter Marina Homblé in Kessel-Lo: Huisarts voor de algemene huisartsgeneeskunde.",
+        "name": "Huisartsenpraktijk Dr. Marina Homblé",
+        "telephone": "+32 498736415",
+        "url": "https://www.drmarinahomble.be"
+    }, {
+        "@id": "#creator",
+        "@type": "Organization"
+    }, {
+        "@type": "BreadcrumbList",
+        "description": "Breadcrumbs list",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "item": "https://www.drmarinahomble.be/",
+            "name": "Home",
+            "position": 1
+        }, {
+            "@type": "ListItem",
+            "item": "https://www.drmarinahomble.be/praktijkinfo.html",
+            "name": "Praktijk info",
+            "position": 2
+        }],
+        "name": "Breadcrumbs"
+    }]
+},
+
+{
+    "@context": "http://schema.org",
+    "@graph": [{
+        "@type": "CreativeWork",
+        "author": {
+            "@id": "https://www.drmarinahomble.be/#identity"
+        },
+        "copyrightHolder": {
+            "@id": "https://www.drmarinahomble.be/#identity"
+        },
+        "copyrightYear": "2020",
+        "creator": {
+            "@id": "https://www.drmarinahomble.be/#creator"
+        },
+        "description": "Als huisarts probeer ik dicht bij de patiënt te staan en een vertrouwensband op te bouwen. Zo kan ik elke zorgvrager kwaliteitsvolle zorg aan bieden, op een laagdrempelige manier, samen met andere zorgverleners van de eerste en tweede lijn",
+        "headline": "Visie en Aanbod",
+        "inLanguage": "nl",
+        "mainEntityOfPage": "https://www.drmarinahomble.be/visie.html",
+        "name": "Visie en Aanbod",
+        "publisher": {
+            "@id": "https://www.drmarinahomble.be/#creator"
+        },
+        "url": "https://www.drmarinahomble.be/visie.html"
+    }, {
+        "@id": "https://www.drmarinahomble.be/#identity",
+        "@type": "Organization",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Belgium",
+            "addressLocality": "Herent",
+            "addressRegion": "Vlaams Brabant",
+            "postalCode": "3010",
+            "streetAddress": "Heidebergstraat 96A"
+        },
+        "alternateName": "Marina Homblé",
+        "description": "Huisartsenpraktijk Dokter Marina Homblé in Kessel-Lo: Huisarts voor de algemene huisartsgeneeskunde.",
+        "name": "Huisartsenpraktijk Dr. Marina Homblé",
+        "telephone": "+32 498736415",
+        "url": "https://www.drmarinahomble.be"
+    }, {
+        "@id": "#creator",
+        "@type": "Organization"
+    }, {
+        "@type": "BreadcrumbList",
+        "description": "Breadcrumbs list",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "item": "https://www.drmarinahomble.be/",
+            "name": "Home",
+            "position": 1
+        }, {
+            "@type": "ListItem",
+            "item": "https://www.drmarinahomble.be/visie.html",
+            "name": "Visie en Aanbod",
+            "position": 2
+        }],
+        "name": "Breadcrumbs"
+    }]
+}

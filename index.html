@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="./style/css/main.css">
     <link rel="stylesheet" href="./style/css/ie11-main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Dokter Marina Homblé. Online informatie en afspraken planning">
+    <meta name="keywords" content="Dokter, Marina, Homble, Homblé, huisarts, Dr, Heidebergstraat, Kessel-Lo">
+    <meta name="author" content="Marina Homblé">
 </head>
 
 <body id="home">
-    <div class="dv-pop-up">
+    <div class="dv-pop-up dv-pop-up--hidden">
         <article class="dv-text-section dv-text-section--border dv-text-section--center dv-pop-up__item">
             <div class="dv-close-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-x" viewBox="0 0 16 16" fill="#686969">
@@ -19,7 +22,7 @@
             </div>
             <h1>Belangrijke CORONA informatie!</h1>
             <p>Als u hoest, neusloop, keelpijn hebt of koorts:</p>
-            <p>Neem dan telefonisch contact op (GSM: 0498736415)</p>
+            <p>Neem dan telefonische contact op (GSM: 0498.736415)</p>
             <p>Voor meer informatie, bezoek de <a href="https://www.info-coronavirus.be">info-website</a> van de vlaamse overheid</p>
         </article>
     </div>
@@ -27,7 +30,19 @@
     <div class="dv-site-wrapper">
         <div class="dv-content-wrapper">
             <header class="dv-main-nav">
-                <p class="dv-home">Dr. Marina Homblé</p>
+                <div class="dv-main-nav__wrapper">
+                    <p class="dv-home">Dr. Marina Homblé</p>
+                    <button title="Toon navigatie menu" class="dv-hamburger">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <path d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </button>
+                    <button class="dv-close-icon dv-close-icon--hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </button>
+                </div>
                 <nav class="dv-navigation">
                     <ul class="dv-navigation__list">
                         <li>
@@ -65,7 +80,7 @@ YMHlQQm1GekJnOWlRZWZ3PT0%3D">
                 <article class="dv-text-icon">
                     <div class="dv-text-icon__text">
                         <h1 id="overmij">Welkom!</h1>
-                        <p>Welkom op de website van Dokter Marina Homblé. Een afspraak is altijd mogelijk online via onderstaande knop of u kan telefonische contact opnemen voor medische vragen via: <bold class="dv-text--red">0498736415</bold>
+                        <p>Welkom op de website van Dokter Marina Homblé. Een afspraak is altijd mogelijk online via onderstaande knop of u kan telefonische contact opnemen voor medische vragen via: <bold class="dv-text--red">0498.736415</bold>
                         </p>
                         <div>
                             <a class="dv-navigation__item dv-button" target="_blank" href="https://afspraken.doctena.be/e/aHN0UVJrME14VXNJc3FYOFpmejRTOFFxVTZuMjh2VXd6ZlpGdTF
@@ -100,6 +115,62 @@ YMHlQQm1GekJnOWlRZWZ3PT0%3D">
     </div>
 
     <script src="style/js/index.js"></script>
-</body>
-
-</html>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@graph": [{
+                "@type": "CreativeWork",
+                "author": {
+                    "@id": "https://www.drmarinahomble.be/#identity"
+                },
+                "copyrightHolder": {
+                    "@id": "https://www.drmarinahomble.be/#identity"
+                },
+                "copyrightYear": "2020",
+                "creator": {
+                    "@id": "https://www.drmarinahomble.be/#creator"
+                },
+                "dateModified": "2020-12-25T09:47:59+02:00",
+                "datePublished": "2020-12-25T07:54:00+02:00",
+                "description": "Welkom bij de praktijk van dokter Marina Homblé! U kan mij ook steeds telefonisch contacteren voor een afspraak of andere medische vragen: 016/799 001",
+                "headline": "Home",
+                "inLanguage": "nl",
+                "mainEntityOfPage": "https://www.drmarinahomble.be/",
+                "name": "Home",
+                "publisher": {
+                    "@id": "https://www.drmarinahomble.be/#creator"
+                },
+                "url": "https://www.drmarinahomble.be"
+            }, {
+                "@id": "https://www.drmarinahomble.be/#identity",
+                "@type": "Organization",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "Belgium",
+                    "addressLocality": "Kessel-Lo",
+                    "addressRegion": "Vlaams Brabant",
+                    "postalCode": "3010",
+                    "streetAddress": "Heidebergstraat 96A"
+                },
+                "alternateName": "Marina Homblé",
+                "description": "Huisartsenpraktijk Dokter Marina Homblé in Kessel-Lo: Huisarts voor de algemene huisartsgeneeskunde.",
+                "name": "Huisartsenpraktijk Dr. Marina Homblé",
+                "telephone": "+32 498736415",
+                "url": "https://www.drmarinahomble.be"
+            }, {
+                "@id": "#creator",
+                "@type": "Organization"
+            }, {
+                "@type": "BreadcrumbList",
+                "description": "Breadcrumbs list",
+                "itemListElement": [{
+                    "@type": "ListItem",
+                    "item": "https://www.drmarinahomble.be/",
+                    "name": "Home",
+                    "position": 1
+                }],
+                "name": "Breadcrumbs"
+            }]
+        }
+    </script>
+</body></html>
